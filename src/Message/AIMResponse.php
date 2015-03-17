@@ -53,6 +53,6 @@ class AIMResponse extends AbstractResponse
 
     public function getTransactionReference()
     {
-        return $this->data[6];
+        return $this->data[37];
     }
 }
